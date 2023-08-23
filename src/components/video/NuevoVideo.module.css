@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+    width: 100%;
+    
+    border: dotted blue 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1E1E1E;
+}
+
+    .header__nuevo__video{
+        width: 100%;
+        height: 90px;
+        /* border: solid rgb(149, 149, 149) 3px; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .logo__alura{
+            border: solid red 3px;
+            display: flex;
+            margin-right: auto;   
+        }
+
+    .linea__azul{
+        width: 100%;
+        height: 1px;
+        background-color: #2A7AE4 ;
+    }
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        height: 150px;
+        color: white;
+    }
