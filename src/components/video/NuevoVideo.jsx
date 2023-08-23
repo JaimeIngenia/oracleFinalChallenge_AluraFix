@@ -14,7 +14,7 @@ export const NuevoVideo = () => {
         </div>
 
         <div className={styles.linea__azul}></div>
-
+{/* nuevo vodeo commit */}
         <div className={styles.titulo}>
 
           <h1>Nuevo video</h1>
